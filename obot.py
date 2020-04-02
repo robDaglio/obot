@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-from bs4 import BeautifulSoup
 from classes import Pause
 from functions import get_driver, run
 from sys import exit
@@ -10,7 +9,6 @@ if __name__ == '__main__':
     sleep_duration = Pause()
     counter = 0
 
-    # Navigate to website
     omegle = "https://www.omegle.com/"
     print(f"[*] Navigating to {omegle}")
 
